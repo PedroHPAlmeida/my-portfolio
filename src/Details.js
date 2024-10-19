@@ -19,7 +19,7 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
-// Porject Images
+// Project Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
@@ -35,10 +35,10 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Pedro Henrique",
+  tagline: "I build things with code",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `Graduated in Systems Analysis and Development, I work as a full-stack developer, applying my technical knowledge to deliver software solutions that combine efficiency and quality. I have practical experience in back-end development with Python and Flask, as well as NodeJS, using JavaScript and TypeScript. On the front-end, I work with React, creating modern and functional user interfaces. In cloud environments, I use AWS services such as Lambda, DynamoDB, RDS, SES, and EKS to build scalable and secure applications. I also have experience in Infrastructure as Code (IaC) with Terraform, which allows me to automate and manage infrastructure effectively. My familiarity with agile methodologies, such as Scrum, facilitates collaboration and continuous delivery in complex projects. Additionally, I have experience with the DevOps culture, regularly using tools and processes that streamline the software delivery cycle, such as Git, Docker, CI/CD with GitLab CI, GitOps, Kubernetes, and ArgoCD. This gives me a comprehensive view of the entire software lifecycle, from development to production. In academic and personal projects, I have worked with Java and the Spring Framework and explored the use of Angular to create front-end applications. I have also used GitHub Actions to automate workflows, further enhancing my skills in continuous integration and delivery. Currently, I am involved in developing a platform aimed at improving the development experience within the company, based on Spotify's open-source software Backstage. The project encompasses everything from microservices creation to cloud infrastructure setup, including automated delivery of AWS services via IaC with Terraform, all with the goal of accelerating the delivery cycle and improving the developer experience.`,
 };
 
 // Enter your Social Media URLs here
