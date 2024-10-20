@@ -5,20 +5,29 @@ import logo from "./assets/logo2.svg";
 // Profile Image
 import profile from "./assets/profile.jpg";
 // Tech stack images
-import html from "./assets/techstack/html.png";
-import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
-import js from "./assets/techstack/js.png";
-import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
-import bootstrap from "./assets/techstack/bootstrap.png";
-import vscode from "./assets/techstack/vscode.png";
-import github from "./assets/techstack/github.png";
+import actions from "./assets/techstack/actions.png";
+import angular from "./assets/techstack/angular.png";
+import argo from "./assets/techstack/argo.png";
+import aws from "./assets/techstack/aws.png";
+import docker from "./assets/techstack/docker.png";
+import dynamodb from "./assets/techstack/dynamodb.png";
+import flask from "./assets/techstack/flask.png";
 import git from "./assets/techstack/git.png";
-import npm from "./assets/techstack/npm.png";
-import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
+import github from "./assets/techstack/github.png";
+import gitlab from "./assets/techstack/gitlab.png";
+import gitlabci from "./assets/techstack/gitlabci.png";
+import java from "./assets/techstack/java.png";
+import js from "./assets/techstack/js.png";
+import kubernetes from "./assets/techstack/kubernetes.png";
+import mongo from "./assets/techstack/mongo.png";
+import nodejs from "./assets/techstack/nodejs.png";
+import postgres from "./assets/techstack/postgres.png";
+import python from "./assets/techstack/python.png";
+import react from "./assets/techstack/react.png";
+import spring from "./assets/techstack/spring.png";
+import terraform from "./assets/techstack/terraform.png";
+import typescript from "./assets/techstack/typescript.png";
+
 // Project Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -78,20 +87,28 @@ export const eduDetails = [
 
 // Tech Stack and Tools
 export const techStackDetails = {
-  html: html,
-  css: css,
-  js: js,
-  react: react,
-  redux: redux,
-  sass: sass,
-  tailwind: tailwind,
-  bootstrap: bootstrap,
-  vscode: vscode,
-  postman: postman,
-  npm: npm,
-  git: git,
-  github: github,
-  figma: figma,
+  actions,
+  angular,
+  argo,
+  aws,
+  docker,
+  dynamodb,
+  flask,
+  git,
+  github,
+  gitlab,
+  gitlabci,
+  java,
+  js,
+  kubernetes,
+  nodejs,
+  mongo,
+  postgres,
+  python,
+  react,
+  spring,
+  terraform,
+  typescript,
 };
 
 // Enter your Project Details here
