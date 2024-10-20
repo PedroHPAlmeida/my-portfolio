@@ -50,43 +50,29 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Software Enginner",
+    Company: `Cielo`,
+    Location: "Barueri - SP - Brazil",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Mar 2024 - Present",
   },
   {
     Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Company: `Cielo`,
+    Location: "Barueri - SP - Brazil",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Feb 2022 - Mar 2023",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Higher Technology Course in Systems Analysis and Development",
+    Company: "FATEC",
+    Location: "Carapicuiba - SP - Brazil",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
-  },
-  {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Duration: "Aug 2020 - Jul 2023",
   },
 ];
 
