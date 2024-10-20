@@ -43,10 +43,8 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  linkedin: "https://www.linkedin.com/in/pedro-henrique-pereira-almeida",
+  github: "https://github.com/PedroHPAlmeida",
 };
 
 // Enter your Work Experience here
@@ -170,6 +168,6 @@ project lorem ipsum generator for dummy content`,
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "pedro.6571almeida@gmail.com",
+  phone: "+55 11 95094-0828",
 };
