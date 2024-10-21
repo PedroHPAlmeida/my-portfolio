@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { socialMediaUrl } from "../Details";
+import ThemeToggle from "./ThemeToogle";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -90,6 +91,9 @@ function Header() {
                 />
               </svg>
             </a>
+          </li>
+          <li>
+            <ThemeToggle />
           </li>
         </ul>
       </nav>
