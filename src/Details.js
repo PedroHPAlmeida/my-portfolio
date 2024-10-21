@@ -29,12 +29,12 @@ import terraform from "./assets/techstack/terraform.png";
 import typescript from "./assets/techstack/typescript.png";
 
 // Project Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import binance from "./assets/projects/binance.jpg";
+import ghactions from "./assets/projects/actions.jpg";
+import fatec from "./assets/projects/fatec.jpg";
+import beecrowd from "./assets/projects/beecrowd.png";
+import code from "./assets/projects/code.jpg";
+import financial from "./assets/projects/financial.jpg";
 
 // Logos
 export const logos = {
@@ -114,58 +114,52 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
-    image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Binance Trades Bot",
+    image: binance,
+    description: "Cryptocurrency purchase recommendation bot. This bot collects data from the Binance API, saves it to MongoDB and sends a personalized AI message via the Telegram bot",
+    techstack: "Python, Terraform and Telegram API",
+    previewLink: null,
+    githubLink: "https://github.com/binance-trades-bot",
   },
   {
-    title: "Project title 2",
-    image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "GitHub Actions - Workflows",
+    image: ghactions,
+    description: "Reusable GitHub Actions workflows. This project groups workflows for Python, Docker, Terraform, AWS Beanstalk, AWS Lambda, among others",
+    techstack: "CI/CD and GitHub Actions",
+    previewLink: null,
+    githubLink: "https://github.com/gh-actions-workflows",
   },
   {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "FATEC - Graduation",
+    image: fatec,
+    description: "Projects and laboratories developed during my graduation in Systems Analysis and Development at FATEC",
+    techstack: "Java, Python, C and Terraform",
+    previewLink: null,
+    githubLink: "https://github.com/fatec-degree",
   },
   {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Beecrowd - Code Challenges",
+    image: beecrowd,
+    description: "Resolutions of programming challenges",
+    techstack: "Python, Java, Javascript, C, Kotlin and SQL",
+    previewLink: null,
+    githubLink: "https://github.com/PedroHPAlmeida/beecrowd-exercises",
   },
   {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Pagar.me - Challenge",
+    image: code,
+    description: "Resolution of the Pagar.me Back-end challenge for implementing a Payment Service Provider (PSP)",
+    techstack: "NodeJS, Express and MongoDB",
+    previewLink: null,
+    githubLink: "https://github.com/PedroHPAlmeida/pagarme-challange-node",
   },
   {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    title: "Financial Control System",
+    image: financial,
+    description: "Personal finance control system",
+    techstack: "Java, Spring, Angular and Kotlin",
+    previewLink: null,
+    githubLink: "https://github.com/my-financial-control",
   },
 ];
 
