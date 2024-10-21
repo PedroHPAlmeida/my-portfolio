@@ -1,7 +1,4 @@
 // Enter all your detials in this file
-// Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
 // Profile Image
 import profile from "./assets/profile.jpg";
 // Tech stack images
@@ -35,12 +32,6 @@ import fatec from "./assets/projects/fatec.jpg";
 import beecrowd from "./assets/projects/beecrowd.png";
 import code from "./assets/projects/code.jpg";
 import financial from "./assets/projects/financial.jpg";
-
-// Logos
-export const logos = {
-  logogradient: logogradient,
-  logo: logo,
-};
 
 // Enter your Personal Details here
 export const personalDetails = {
