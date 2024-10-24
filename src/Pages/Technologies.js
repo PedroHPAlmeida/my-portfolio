@@ -1,5 +1,6 @@
 import React from "react";
 import { techStackDetails } from "../Details";
+import { useTranslation } from 'react-i18next';
 
 function Technologies() {
   const {
@@ -26,14 +27,16 @@ function Technologies() {
     terraform,
     typescript,
   } = techStackDetails;
+  const { t } = useTranslation();
+
   return (
     <main className="bg-white dark:bg-dark-mode container mx-auto max-width pt-10 pb-20 ">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Languages & Frameworks
+          {t('languages-a-frameworks')}
         </h1>
         <p className="text-content py-2 lg:max-w-3xl">
-          Languages and Frameworks I've been working with recently
+          {t('languages-a-frameworks-desc')}
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
@@ -49,10 +52,10 @@ function Technologies() {
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          DevOps Tools
+          {t('devops-tools')}
         </h1>
         <p className="text-content py-2 lg:max-w-3xl">
-          Tools I use for DevOps
+          {t('devops-tools-desc')}
         </p>
         <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
           <img className="img-container" src={aws} title="AWS" alt="AWS" />
@@ -69,10 +72,10 @@ function Technologies() {
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Databases
+          {t('databases')}
         </h1>
         <p className="text-content py-2 lg:max-w-3xl">
-          Databases I've worked with
+          {t('databases-desc')}
         </p>
         <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
           <img className="img-container" src={postgres} title="Postgres" alt="Postgres" />

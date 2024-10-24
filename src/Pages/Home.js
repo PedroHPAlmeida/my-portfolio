@@ -1,13 +1,17 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
+import { useTranslation } from 'react-i18next';
 
 function Home() {
-  const { name, tagline, img } = personalDetails;
+  const { name, img } = personalDetails;
   const h11 = useRef();
   const h12 = useRef();
   const h13 = useRef();
   const myimageref = useRef();
+
+  const { t } = useTranslation();
+
   useEffect(() => {
     const tl = gsap.timeline();
     tl.from(
@@ -63,7 +67,7 @@ function Home() {
           ref={h11}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          Hi,👋<br></br>My Name is<br></br>
+          {t('hi')},👋<br></br>{t('my-name-is')}<br></br>
         </h1>
         <h1
           ref={h12}
@@ -75,7 +79,7 @@ function Home() {
           ref={h13}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          {tagline}
+          {t('i-build-things')}
         </h2>
       </div>
       <div className="mt-5 md:mt-0">

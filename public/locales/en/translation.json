@@ -1,0 +1,69 @@
+{
+    "home": "Home",
+    "hi": "Hi",
+    "my-name-is": "My Name is",
+    "i-build-things": "I build things with code",
+    "about": "About Me",
+    "about-me-resume": "Graduated in Systems Analysis and Development, I work as a full-stack developer, applying my technical knowledge to deliver software solutions that combine efficiency and quality. I have practical experience in back-end development with Python and Flask, as well as NodeJS, using JavaScript and TypeScript. On the front-end, I work with React, creating modern and functional user interfaces. In cloud environments, I use AWS services such as Lambda, DynamoDB, RDS, SES, and EKS to build scalable and secure applications. I also have experience in Infrastructure as Code (IaC) with Terraform, which allows me to automate and manage infrastructure effectively. My familiarity with agile methodologies, such as Scrum, facilitates collaboration and continuous delivery in complex projects. Additionally, I have experience with the DevOps culture, regularly using tools and processes that streamline the software delivery cycle, such as Git, Docker, CI/CD with GitLab CI, GitOps, Kubernetes, and ArgoCD. This gives me a comprehensive view of the entire software lifecycle, from development to production. In academic and personal projects, I have worked with Java and the Spring Framework and explored the use of Angular to create front-end applications. I have also used GitHub Actions to automate workflows, further enhancing my skills in continuous integration and delivery. Currently, I am involved in developing a platform aimed at improving the development experience within the company, based on Spotify's open-source software Backstage. The project encompasses everything from microservices creation to cloud infrastructure setup, including automated delivery of AWS services via IaC with Terraform, all with the goal of accelerating the delivery cycle and improving the developer experience.",
+    "work-experience": "Work Experience",
+    "software-enginner": "Software Enginner",
+    "intership": "Intership",
+    "education": "Education",
+    "htc-ads": "Higher Technology Course in Systems Analysis and Development",
+    "full-time": "Full Time",
+    "aug-2020-jul-2023": "Aug 2020 - Jul 2023",
+    "brazil": "Brazil",
+    "mar-2024-present": "Mar 2024 - Present",
+    "feb-2022-mar-2023": "Feb 2022 - Mar 2023",
+    "intern": "Intern",
+    "technologies": "Technologies",
+    "languages-a-frameworks": "Languages & Frameworks",
+    "languages-a-frameworks-desc": "Languages and Frameworks I've been working with recently",
+    "devops-tools": "DevOps Tools",
+    "devops-tools-desc": "Tools I use for DevOps",
+    "databases": "Databases",
+    "databases-desc": "Databases I've worked with",
+    "projects": {
+        "title": "Projects",
+        "list": {
+            "project1": {
+                "title": "Binance Trades Bot",
+                "description": "Cryptocurrency purchase recommendation bot. This bot collects data from the Binance API, saves it to MongoDB and sends a personalized AI message via the Telegram bot",
+                "stack": "Python, Terraform and Telegram API"
+            },
+            "project2": {
+                "title": "GitHub Actions - Workflows",
+                "description": "Reusable GitHub Actions workflows. This project groups workflows for Python, Docker, Terraform, AWS Beanstalk, AWS Lambda, among others",
+                "stack": "CI/CD and GitHub Actions"
+            },
+            "project3": {
+                "title": "FATEC - Graduation",
+                "description": "Projects and laboratories developed during my graduation in Systems Analysis and Development at FATEC",
+                "stack": "Java, Python, C and Terraform"
+            },
+            "project4": {
+                "title": "Beecrowd - Code Challenges",
+                "description": "Resolutions of programming challenges",
+                "stack": "Python, Java, Javascript, C, Kotlin and SQL"
+            },
+            "project5": {
+                "title": "Pagar.me - Challenge",
+                "description": "Resolution of the Pagar.me Back-end challenge for implementing a Payment Service Provider (PSP)",
+                "stack": "NodeJS, Express and MongoDB"
+            },
+            "project6": {
+                "title": "Financial Control System",
+                "description": "Personal finance control system",
+                "stack": "Java, Spring, Angular and Kotlin"
+            }
+        },
+        "card": {
+            "tech-stack": "Tech Stack",
+            "view-code": "View Code",
+            "live-preview": "Live Preview"
+        }
+    },
+    "contact": "Contact",
+    "any-questions": "For any questions please drop a mail",
+    "or": "or"
+}
