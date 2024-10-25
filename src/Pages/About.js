@@ -18,7 +18,7 @@ function About() {
           {t('work-experience')}
         </h1>
         <Work
-          position={t('software-enginner')}
+          position={t('software-engineer')}
           company={'Cielo'}
           location={`Barueri - SP - ${t('brazil')}`}
           type={t('full-time')}
